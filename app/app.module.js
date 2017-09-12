@@ -1,3 +1,7 @@
 import angular from 'angular';
+import uirouter from 'angular-ui-router';
 
-angular.module('App', []);
+import routes from './app.routes';
+
+angular.module('App', [uirouter])
+.config(routes);
