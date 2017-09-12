@@ -10,7 +10,7 @@ module.exports = {
     },
     devServer: {
         inline: true,
-        contentBase: __dirname + '/bin',
+        contentBase: __dirname + '/bin/assets',
         port: 9090
     },
     module: {
