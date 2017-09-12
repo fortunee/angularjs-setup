@@ -1,0 +1,13 @@
+{
+  "name": "angularjs-setup",
+  "version": "1.0.0",
+  "description": "AngularJS component based seed/setup",
+  "main": "index.js",
+  "author": "Fortune Ekeruo",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "webpack": "^3.5.6"
+  }
+}
