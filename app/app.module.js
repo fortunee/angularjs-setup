@@ -2,7 +2,8 @@ import angular from 'angular';
 import uirouter from 'angular-ui-router';
 
 import routes from './app.routes';
-import home from './Components/HomePage/home.module';
+import baseComponents from './Components'
+// import home from './Components/HomePage/home.module';
 
-angular.module('App', [uirouter, home])
+angular.module('App', [uirouter, baseComponents])
 .config(routes);
