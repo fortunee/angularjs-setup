@@ -1,5 +1,7 @@
-routes.$inject = ['$urlRouterProvider'];
-
-export default ($urlRouterProvider) => {
+const appRoutes = ($urlRouterProvider) => {
     $urlRouterProvider.otherwise('/');
 }
+
+appRoutes.$inject = ['$urlRouterProvider'];
+
+export default appRoutes;

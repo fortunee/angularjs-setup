@@ -1,9 +1,9 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
-// Routes
-import routes from './index.routes';
+// Component Routes
+import componentRoutes from './index.routes';
 
 export default angular.module('rootComponent', [uiRouter])
-    .config(routes)
+    .config(componentRoutes)
     .name;
