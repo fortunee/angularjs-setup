@@ -1,7 +1,7 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
-// Routes
+// App Routes
 import routes from './app.routes';
 
 // Root Component
