@@ -4,6 +4,6 @@ export default ($stateProvider) => {
     $stateProvider
         .state('rootComponentState', {
             url: '/',
-            templateUrl: './app/components/home/home.template.html',
+            templateUrl: './app/components/index.template.html',
         })
 }
