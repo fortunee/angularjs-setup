@@ -1,5 +1,5 @@
 routes.$inject = ['$urlRouterProvider'];
 
-export default function routes($urlRouterProvider) {
+export default ($urlRouterProvider) => {
     $urlRouterProvider.otherwise('/');
 }
