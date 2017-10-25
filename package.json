@@ -2,8 +2,8 @@
   "name": "angularjs-setup",
   "version": "1.0.0",
   "description": "AngularJS component based seed/setup",
-  "main": "index.js",
-  "author": "Fortune Ekeruo",
+  "main": "",
+  "author": "Fortune Ekeruo <legalmody@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.6.6",
@@ -18,7 +18,6 @@
     "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
-    "start": "concurrently 'lite-server' 'webpack --watch'",
-    "dev": "webpack-dev-server"
+    "start": "concurrently 'lite-server' 'webpack --watch'"
   }
 }
