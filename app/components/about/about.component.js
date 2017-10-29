@@ -1,8 +1,10 @@
+import './about.style.scss';
+
 class AboutCtrl {
     constructor() {
         'ngInject';
         angular.extend(this);
-        this.title = 'About'
+        this.title = 'About Page'
     }
 
 
