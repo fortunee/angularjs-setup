@@ -8,7 +8,10 @@ class ServiceCtrl {
     }
 
     loadUsers() {
-        
+        this.AppService.fetchUsers().then((users) => {
+            this.users = users;
+            console.log(this.users);
+        })
     }
 }
 
