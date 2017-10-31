@@ -1,4 +1,4 @@
-export default class MovieService {
+export default class AppService {
     constructor($http) {
         this._$http = $http;
     }
