@@ -1,10 +1,16 @@
 <navbar-component></navbar-component>
 
 <div class="container">
-    <button class="btn btn-info btn-lg">Click to Get Users</button>
-    <pre>
-        {{JSON.stringify(mv.users)}}
-    </pre>
+    <center>
+        <button class="btn btn-info btn-lg" ng-click="mv.loadUsers()">Load Users</button> 
+        <br>
+        <br>
+        <div class="container">
+                <code>
+                    {{mv.users}}
+                </code>
+        </div>
+    </center>
 </div>
-
+<br>
 <footer-component></footer-component>
