@@ -8,6 +8,10 @@ const componentRoute = ($stateProvider) => {
         url: '/about',
         component: 'aboutComponent'
     })
+    .state('serviceComponentState', {
+        url: '/service',
+        component: 'serviceComponent'
+    })
 }
 componentRoute.$inject = ['$stateProvider'];
 
