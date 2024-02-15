@@ -6,7 +6,7 @@
   "author": "Fortune Ekeruo <legalmody@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.6.6",
+    "angular": "^1.8.3",
     "angular-mocks": "^1.6.6",
     "angular-ui-router": "^1.0.3",
     "babel-core": "^6.26.0",
